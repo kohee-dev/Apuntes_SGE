@@ -160,9 +160,9 @@ Funcionan de una forma muy parecida a las listas, tal que habría que añadir un
 
 Ademas nos permite añadir filtros y agrupaciones de elementos por medio de los atributos `domain` y `context`. 
 
-El atributo `domain` nos permite definir una serie de criterios que se utiliza para seleccionar un subconjunto de elementos que los siguen. 
+### `domain`
 
-Por ejemplo un filtro para seleccionar los chicos mayores de edad que sean menores de 40 años:
+El atributo `domain` nos permite definir una serie de criterios que se utiliza para seleccionar un subconjunto de elementos que los siguen. Por ejemplo un filtro para seleccionar los chicos mayores de edad que sean menores de 40 años:
 
 ```xml
 <filter name="Chicos mayores de edad"
@@ -170,11 +170,11 @@ Por ejemplo un filtro para seleccionar los chicos mayores de edad que sean menor
 />
 ```
 
-Como se puede apreciar los operadores lógicos se encuentran al comienzo de la expresión y la estructura sigue la sintaxis expuesta.
+Como se puede apreciar los operadores lógicos se encuentran al comienzo de la expresión y la estructura sigue la sintaxis del ejemplo donde se establece campo, operador lógico, valor.
 
-El atributo `context` nos permite agrupar los resultados por un nombre concreto del campo. 
+### `context`
 
-Por ejemplo, la siguiente expresión nos permitiría filtrar los campos por género
+El atributo `context` nos permite agrupar los resultados por un nombre concreto del campo. Por ejemplo, la siguiente expresión nos permitiría filtrar los campos por género
 
 ```xml
 <group expand="1" string="Group By">
