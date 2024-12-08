@@ -1,6 +1,6 @@
 ---
 title: La tienda de nº 163 
-subtitle: "Práctica 2: Instalación Odoo desde código fuente"
+subtitle: "Práctica 1: Instalación Odoo desde código fuente"
 author: Alejandro Bartolomé
 header-includes: |
 lang: es_ES

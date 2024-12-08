@@ -1,6 +1,6 @@
 ---
 title: La tienda de nº 163 
-subtitle: "Práctica 3: Creación de un módulo"
+subtitle: "Práctica 2: Creación de un módulo"
 author: Alejandro Bartolomé
 header-includes: |
 lang: es_ES
@@ -42,7 +42,7 @@ Como IDE es recomendable el uso de PyCharm, aunque personalmente prefiero usar V
 
 En el caso de no tener un conocimiento intermedio de Python, durante esta guía se proporcionarán medios para entender las estructuras de datos que estamos empleando y se recomienda encarecidamente intentar comprender su uso y preguntar dudas en clase sobre conceptos que no se entiendan.
 
-Se puede hacer la práctica en Docker exactamente igual, pero la vamos ha realizar de esta forma para comprender por que se sigue esta estructura.
+Se puede hacer la práctica en Docker exactamente igual, pero la vamos ha realizar de esta forma para comprender por qué se sigue esta estructura.
 
 # Recomendación musical
 
