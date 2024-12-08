@@ -152,6 +152,38 @@ Nos quedaría de la siguiente forma:
 
 Completa la estructura del código para que quede igual que en la imagen
 
+## Búsqueda
+
+Las búsquedas nos permiten modificar y añadir parámetros a la hora de realizar búsquedas entre los datos.
+
+Funcionan de una forma muy parecida a las listas, tal que habría que añadir un campo `field` para que podamos buscar por el campo que definamos, de tal forma que si no añadimos nada unicamente podremos buscar por `id` pero si añadimos `item_name` también podremos realizar búsquedas por nombre y así.
+
+Ademas nos permite añadir filtros y agrupaciones de elementos por medio de los atributos `domain` y `context`. 
+
+El atributo `domain` nos permite definir una serie de criterios que se utiliza para seleccionar un subconjunto de elementos que los siguen. 
+
+Por ejemplo un filtro para seleccionar los chicos mayores de edad que sean menores de 40 años:
+
+```xml
+<filter name="Chicos mayores de edad"
+        domain="['&', ('gender', '=', 'male'), '&', ('age', '>=', 18), ('age', '<', 40)]"
+/>
+```
+
+Como se puede apreciar los operadores lógicos se encuentran al comienzo de la expresión y la estructura sigue la sintaxis expuesta.
+
+El atributo `context` nos permite agrupar los resultados por un nombre concreto del campo. 
+
+Por ejemplo, la siguiente expresión nos permitiría filtrar los campos por género
+
+```xml
+<group expand="1" string="Group By">
+    <filter string="Gender" name="gender" context="{'group_by':'gender'}"/>
+</group>
+```
 
 
+### Ejercicio 3
+
+Define un filtro que permita seleccionar todos los atributos con categoría `Recovery` y otro que agrupe los objetos por categoría.
 
