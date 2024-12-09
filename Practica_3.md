@@ -35,7 +35,7 @@ Para la realización de la práctica es necesario realizar los siguientes puntos
 + Tener una versión de Python instalada. *(Recomendable la versión 3.13, aunque se va a realizar el ejercicio con la versión 3.11.9)* [Descarga de Python](https://www.python.org/downloads/)
 + Completar la instalación de PostgreSQL. *(Recomendable la version 17.1)* [Descarga de PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 + Leer Style Guide for Python Code *(PEP 8)* pues haremos referencia a ello en la nomenclatura de variables. [Enlace a PEP 8](https://peps.python.org/pep-0008/)
-+ Haber completado la Instalación de Odoo con "Práctica 3: Creación de un módulo" de "La tienda de nº 163" y comprender la estructura básica de un módulo.
++ Haber completado la Creación de un módulo con "Práctica 2: Creación de un módulo" de "La tienda de nº 163" y comprender la estructura básica de un módulo.
 
 Como IDE es recomendable el uso de PyCharm, aunque personalmente prefiero usar VSCode por comodidad. Lo dejo a preferencia personal.
 
