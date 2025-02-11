@@ -61,3 +61,19 @@ A continuación, se detallan los objetivos comerciales clave logrados mediante e
 + Servicio siempre activo
 + Soporte multicanal
 + Soporte más rápido
+  
+# Setup
+
+Entrando al menu de configuración mediante hacer click en el engranaje en la parte superior derecha y dando click en la primera opción podremos encontrar las características a las cuales tendremos acceso. A continuación listo las más relevantes y sus funciones.
+
+| Características | Funciones|
+|-|-|
+| Usuarios| Crear y eliminar usuarios. Gestionar perfiles y permisos de usuario.|
+| Configuración de la empresa| Información relacionada con su organización, como idioma, mapas y ubicaciones, dominio, etc.|
+| Seguridad| Contraseñas vencidas, políticas de acceso, administración de sesiones y configuración de registros de auditoría.|
+| Objetos y campos| Administrador de objetos y generador de esquemas.|
+| Interfaz de usuario| Menú de aplicaciones, etiquetas personalizadas y generador de aplicaciones de iluminación.|
+| Análisis| Reports y Dashboards.|
+| Entornos| Trabajos, registros y entornos aislados.|
+| Código personalizado| Tipos de metadatos personalizados, servicios de correo electrónico, acceso remoto, etc.|
+
