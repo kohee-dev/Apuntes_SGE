@@ -27,7 +27,7 @@ Para la realización de esta práctica voy a tener los siguientes supuestos:
 ---
 <center>
 
-![](/img/Red.png)
+![](../img/Red.png)
 
 </center>
 
@@ -54,7 +54,7 @@ Justo cuando termina de configurar el sistema suena la campana de su puerta.
 
 Nº 163 puede ver como un humano alto se acerca hacia él y le pregunta por "lo de siempre". Sus ojos amarillos se iluminan de alegría, ha llegado su momento. Pero justo entonces ve que no ha conseguido introducir *el objeto* y no sabe donde está. Mientras entra en pánico, busca formas de ganar tiempo, asi que le muestra el inventario.
 
-![inventario](img/odoo_products.png)
+![inventario](../img/odoo_products.png)
 
 Puede ver la alegría en los ojos del humano, pero de repente le pregunta:
 
@@ -104,7 +104,7 @@ El modulo también deberá gestionar la compra y venta de productos por parte de
 El primer paso para crear un módulo será activar el Modo de Desarrollador.
 Se puede encontrar un botón para activarlo en la parte inferior del apartado Ajustes, por ahora no usaremos ninguna opción adicional asi que haremos clic en `Activar modo de desarrollador`.
 
-![Apps](/img/P2_md/Modo_desarrollador_activado.png)
+![Apps](../img/P2_md/Modo_desarrollador_activado.png)
 
 Con el Modo Desarrollador activado podemos apreciar 2 elementos característicos:
 1. Bajo el usuario nos indica que BBDD estamos utilizando.
@@ -114,7 +114,7 @@ Comenzaremos el proceso de creación del módulo creación de una carpeta en el 
 
 En el interior de este directorio comenzaremos a dar forma al módulo creando los ficheros `__init__.py` y `__manifest__.py`.
 
-![Directorios](img/P2_md/Directorios.png)
+![Directorios](../img/P2_md/Directorios.png)
 
 *Ignorad que he puesto una coma en lugar de punto en el manifest, he tardado un rato largo en darme cuenta. Lo dejo tal cual para avisar que no va a dar ningún error si tenéis cualquier aviso en el caso de que escribáis mal el nombre.*
 
@@ -144,7 +144,7 @@ Para que nos salga en la lista de módulos actualizado habrá que completar los 
 
 Una vez hayamos completado los pasos, si realizamos una búsqueda en el apartado de aplicaciones podremos ver que ya aparece nuestro módulo.
 
-![yay](img/P2_md/first_module.png)
+![yay](../img/P2_md/first_module.png)
 
 Ahora podremos activar el módulo y cambiar el contenido de su interior como nos plazca modificando el fichero `__manifest__.py`. 
 
@@ -228,7 +228,7 @@ Con este código estamos consiguiendo los siguientes puntos.
 
 3. Definimos los atributos de la clase, de los cuales `_name` es el que tiene más importancia. Por lo general se suele emplear `MODELO.NOMBRE`.
 
-![from_reddit](/img/P2_md/meme.jpg)
+![from_reddit](../img/P2_md/meme.jpg)
 
 Luego habría que definir el resto de parámetros asi que seguiremos la siguiente tabla hecha en base a las especificaciones previas.
 
@@ -322,23 +322,23 @@ class MagicShopMagicItem(models.Model):
 
 Ahora deberemos actualizar nuestro módulo y nos iremos al apartado `Modelos` dentro del desplegable `Técnico` en la pestaña `Ajustes` y si lo hemos hecho todo bien debería aparecer nuestro nuevo Modelo.
 
-![yay.exe](/img/P2_md/first_model.png)
+![yay.exe](../img/P2_md/first_model.png)
 
 Me gustaría destacar como Odoo modifica los nombres de la `Etiqueta de Campo` para que "_" sea un espacio y que la siguiente palabra comience por mayúscula frente a `item_name` que tiene un campo personalizado gracias a nuestro atributo `string`. 
 
 De hecho, si buscamos en nuestro pgadmin, podremos ver como se ha creado ya la tabla en la base de datos con los campos que hemos definido.
 
-![BBDD](/img/P2_md/BBDD.png)
+![BBDD](../img/P2_md/BBDD.png)
 
 ### FAQ:
 
 **¿Cómo actualizo mi módulo?**
 
-![actualizar modulo](/img/P2_md/actualizar_modulo.png)
+![actualizar modulo](../img/P2_md/actualizar_modulo.png)
 
 **¿Cómo accedo a mi modelo?**
 
-![acceder a modelo](/img/P2_md/modelos.png)
+![acceder a modelo](../img/P2_md/modelos.png)
 
 # Parte IV: Creación de vistas
 
@@ -351,7 +351,7 @@ El siguiente paso es permitir al usuario acceder a la nueva estructura que hemos
 
 <center>
 
-![](/img/Yellow.png)
+![](../img/Yellow.png)
 
 </center>
 
@@ -367,7 +367,7 @@ Para poder crear la vista vamos a crear un nuevo directorio llamado `views` en `
 
 Crearemos 2 nuevos ficheros en el directorio recién creado: `menu.xml` y `magic_item.xml` y, como os habréis imaginado ya, tendremos que indicar al módulo donde se encuentran estos ficheros *(si no se os ha ocurrido, algún dia ocurrirá)*. Para ello tendremos que modificar ``__manifest__.py`` creando un nuevo elemento llamado `data`, donde le indicaremos la ruta a los xml. 
 
-![vistas](/img/P2_md/views.png)
+![vistas](../img/P2_md/views.png)
 
 Tras los cambios quedaría asi: 
 
@@ -403,9 +403,9 @@ Dentro de una etiqueta `odoo` tenemos una etiqueta del tipo `menuitem` en la que
 
 Una vez actualicemos podremos ver como se encuentra dentro del apartado Técnico > Interfaz del Usuario > Elementos del menú.
 
-![menu1](/img/P2_md/menu.png)
+![menu1](../img/P2_md/menu.png)
 
-![menu2](/img/P2_md/menu2.png)
+![menu2](../img/P2_md/menu2.png)
 
 Pero por supuesto todavía tendremos que definir varios puntos.
 
@@ -430,7 +430,7 @@ Con el fin de comprender todos estos puntos, haremos una modificación al ficher
 
 Tras esto podremos observar como aparecen ambos menús pero no tienen ningún tipo de relación entre ellos. 
 
-![menu3](/img/P2_md/menu3.png)
+![menu3](../img/P2_md/menu3.png)
 
 Luego como podréis observar en las imágenes anteriores en el menú recién creado se puede apreciar un campo llamado Menú Padre. Para modificarlo podemos hacerlo desde la interfaz aunque es recomendable por medio de una instrucción en el xml: `parent="menu_magic_shop_root"` donde estableceremos cual es el directorio padre utilizando el id.
 
@@ -447,7 +447,7 @@ graph TD;
 
 Y aparecerá de la siguiente forma.
 
-![](/img/P2_md/menu4.png)
+![](../img/P2_md/menu4.png)
 
 Pero, *spoiler*, esto nos supondrá un pequeño fallo más adelante. La forma en la que se ejecuta nuestro manifest es secuencial, por lo que se ejecutará primero el xml padre y luego el hijo. Hay que tener especial cuidado en que esto **NO** sea así. Primero se han de ejecutar todos los elementos que no tienen dependencias y por último aquellos que si dependen de otros. Siguiendo el gráfico anterior, de abajo a arriba. 
 
@@ -502,7 +502,7 @@ Entraremos a `menu.xml` y lo primero que vamos a hacer es definir en `Magic Item
 
 Y este sería el resultado.
 
-![yay.ugly](/img/P2_md/action.png)
+![yay.ugly](../img/P2_md/action.png)
 
 Veremos más sobre vistas y acciones más adelante, pero por ahora hace el apaño.
 
@@ -548,14 +548,14 @@ Todos los nombres son bastante explicativos, y todos los valores se han cogido d
 
 Y ya con el fichero creado veremos como hemos conseguido crear un permiso de acceso para nuestro modelo, que ya no aparece el warning en el log y como aparece en nuestro menú desplegable.
 
-![yay.exe](/img/fin.png)
+![yay.exe](../img/fin.png)
 
 ***Waymarks*:** 
 ---
 
 <center>
 
-![](/img/Green.png)
+![](../img/Green.png)
 
 </center>
 
@@ -563,7 +563,7 @@ Ahora, con todo el sistema creado hasta aquí, la estructura de nuestro modulo s
 
 <center>
 
-![](/img/end.png)
+![](../img/end.png)
 
 </center>
 
@@ -577,7 +577,7 @@ Bueno, si nos fijamos en el resto de modelos podemos ver como tienen asignado un
 
 Tras todo esto, podremos entrar a nuestro módulo y, tras solucionar un pequeño error que os voy a dejar a vosotros, quedaría tal que asi. No es bonito, pero es nuestro.
 
-![yay](/img/P2_md/result.png)
+![yay](../img/P2_md/result.png)
 
 
 Y si queremos almacenar un dato podremos ver como se guarda dentro de nuestra base de datos. Podemos usar una herramienta como dbeaver para ver que efectivamente se ha almacenado el campo en la base de datos.
@@ -587,6 +587,6 @@ id|create_uid|write_uid|create_date            |write_date             |item_nam
 --|----------|---------|-----------------------|-----------------------|------------|-------------|----------|---------------------------------------------------------------------------------------------------------------------|----------------------|---------------|
  1|         2|        2|2024-12-02 21:58:14.210|2024-12-02 21:58:14.210|Phoenix Down|recovery     |150       |Revives a single character from KO. HP drops to 1-10 if target is undead. Has no effect if target is a zombie and KO.|Cures KO.             |false          |
 
- ![](/img/P2_md/dbeaver.png)
+ ![](../img/P2_md/dbeaver.png)
 
  Y con esto concluye la parte 2 de creación de módulos. En la siguiente parte enseñaremos a nº 163 a crear vistas.

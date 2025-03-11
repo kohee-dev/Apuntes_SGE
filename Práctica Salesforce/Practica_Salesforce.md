@@ -26,7 +26,7 @@ Para la realización de esta actividad voy a tener los siguientes supuestos:
 Opera en Jidoor
 ==============================
 
-![UODM](img/opera.png.jpg)
+![UODM](../img/opera.png.jpg)
 
 [Recomendación musical](https://www.youtube.com/watch?v=yYzq0am3B4I)
 

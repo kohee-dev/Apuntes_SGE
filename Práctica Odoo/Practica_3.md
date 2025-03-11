@@ -26,7 +26,7 @@ Para la realización de esta práctica voy a tener los siguientes supuestos:
 ---
 <center>
 
-![](/img/Green.png)
+![](../img/Green.png)
 
 </center>
 
@@ -77,7 +77,7 @@ Adicionalmente estableceremos un campo `arch` que definirá la arquitectura *(**
 
 Una lista va a encargarse de estructurar todos los objetos creados uno encima de otro, mostrando los campos que se le indique. De esta forma el resultado seria algo similar a lo siguiente.
 
-![](/img/P3_md/list.png)
+![](../img/P3_md/list.png)
 
 Para crear una lista deberemos de hacer lo siguiente: en el campo `arch` definiremos los campos del modelo que queremos que se muestren y en que orden. En nuestro caso primero `item_category`, `item_name`, `sell_value` y `shown_item_description`. Cada uno de estos campos se mostrará por el atributo `String` definido.
 
@@ -96,7 +96,7 @@ Completa la estructura para que quede igual que la imagen previa.
 
 Los formularios tienen una estructura un poco más compleja que las listas, pero también gracias a ello se pueden hacer estructuras más interesantes como esta:
 
-![](/img/P3_md/form.png)
+![](../img/P3_md/form.png)
 
 
 Para comprender como se estructura hay que definir las siguientes etiquetas:
@@ -162,10 +162,10 @@ Ademas nos permite añadir filtros y agrupaciones de elementos por medio de los 
 
 ### `domain`
 
-El atributo `domain` nos permite definir una serie de criterios que se utiliza para seleccionar un subconjunto de elementos que los siguen. Por ejemplo un filtro para seleccionar los chicos mayores de edad que sean menores de 40 años:
+El atributo `domain` nos permite definir una serie de criterios que se utiliza para seleccionar un subconjunto de elementos que los siguen. Por ejemplo un filtro para seleccionar los hombres mayores de edad que sean menores de 40 años:
 
 ```xml
-<filter name="Chicos mayores de edad"
+<filter name="Hombres mayores de edad"
         domain="['&', ('gender', '=', 'male'), '&', ('age', '>=', 18), ('age', '<', 40)]"
 />
 ```

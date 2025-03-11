@@ -40,7 +40,7 @@ La Tienda de nº 163
 
 *Se escucha en la lejanía un sonido... ¡¡los humanos están aquí!!*
 
-![BMV](img/village.jpeg)
+![BMV](../img/village.jpeg)
 
 Nº 163 acaba de abrir su tienda y no sabe que tiene que hacer para mantenerla a flote. 
 
@@ -122,7 +122,7 @@ Lo primero que tendremos que hacer es automatizar el arranque del sistema:
 
 El proyecto deberá de tener una forma similar a la siguiente.
 
-![P1](img/Proyecto1.png)
+![P1](../img/Proyecto1.png)
 
 ## Fichero de configuración
 
@@ -202,7 +202,7 @@ Igual que antes, vamos poco a poco:
 
 Por fin ha llegado el momento, podemos iniciar el sistema, asi que clicaremos el triangulo verde en el apartado **Run and Debug**.
 
-![Arranque](img/Arranque%20Sistema.png)
+![Arranque](../img/Arranque%20Sistema.png)
 
 Por supuesto, aunque lo hayamos hecho bien pueden ocurrir varios problemas:
 
@@ -227,7 +227,7 @@ Revisa las rutas de los directorios en el fichero de configuración y en el json
 ## Arranque
 Tras conseguir arrancar correctamente el sistema, si entramos a la dirección `localhost:8069` nos debería aparecer la siguiente pantalla.
 
-![odoo](img/odoo.png)
+![odoo](../img/odoo.png)
 
 Ahora quedaría únicamente establecer todos los datos para iniciar sesión, así como la base de datos.
 
