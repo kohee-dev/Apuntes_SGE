@@ -18,7 +18,7 @@ Para la realización de esta actividad voy a tener los siguientes supuestos:
 + Cada actividad va a ser corregida de forma *individual* y separada del resto de actividades.
 + Soy consciente de que estamos tratando retos que no hemos trabajado en profundidad en clase, por ello mismo no tengáis miedo en hacer preguntas.
 + Cuando hagáis comandos, recomiendo encarecidamente apuntarlos puesto que serán relevantes más adelante.
-+ Si alguien realiza algún tipo de *brujeria* o *plagio* lo sabré.
++ Si alguien realiza algún tipo de *brujería* o *plagio* lo sabré.
 
 *Waymarks*
 + Puesto que esta parte es el setup es un poco más corta de lo habitual, dedicadle tiempo a preparar bien el entorno y a conseguir la integración con VSCode bien.
@@ -67,7 +67,7 @@ graph TB
 
 Sustituto debe representar que Artista está sustituyendo.
 
-### Reto:
+### Reto
 Intenta que cuando realices una búsqueda, si buscas algún sustituto, te muestre todos los resultado del actor que sustituye
 
 
